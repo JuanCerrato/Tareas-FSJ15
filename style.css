@@ -1,0 +1,14 @@
+.button-height{
+    height: 80px;
+}
+input{
+    border: 2px solid black;
+}
+select{
+    border: 2px solid black;
+
+}
+.activado{
+    height: 20px;
+    width: 20px;
+}
