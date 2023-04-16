@@ -1,0 +1,138 @@
+/* Index.html */
+h1{
+    text-align: center;
+}
+table{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse ;
+}
+td, th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Editar{
+    background-color:rgb(45, 120, 219);
+    
+}
+.a-nuevo{
+    color: white;
+}
+.Nuevo{  
+background-color:green;
+display: inline-block;
+}
+.Eliminar{
+    background-color: crimson;
+}
+button{
+    border-radius: 3px;
+    padding: 3px;
+    border: none;
+    margin: none;
+}
+i{
+color: white;
+margin-right: 5px;
+}
+
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+div{
+    display: block;
+margin-bottom: 5px;
+margin-top: 10px;
+}
+/* Producto */
+fieldset{
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 650px;
+    width:max-content;
+    justify-items:center;
+    margin:auto;
+    display: block;
+    text-align: center;
+
+}
+legend{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+label, input{
+    margin: 15px;
+    padding: 3px;
+}
+
+label{
+    font-display:initial;
+    justify-content: center;
+    font-weight: bold;
+    display: inline-table;
+}
+
+input{
+    border: 3px solid black;
+    border-radius: 2px;
+    width: 300px;
+    float: right;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.buttonright, .buttonleft{
+    color: black;
+    background-color: white;
+    width: 80px;
+    box-shadow: 5px 5px;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+#ioptions{
+    border: 3px solid black;
+    width: 310.8px;
+    height:26.8px ;
+    
+}
+/* datos guardados */
+
+.img-save {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}   
+.check-active{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+.activado{
+    display: flex;
+    margin-left: 35px;
+    width: 25px;
+    height: 25px;
+}
+select{
+    display: bloc;
+
+}
+.categorities{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
